@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@400;600;700&family=Roboto&family=Volkhov:wght@700&display=swap");
+
+#title {
+    background-color:white;
+}
+
+
+
+.top-left{
+    position: absolute;
+    z-index: -0.75;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+    color: #181E4B;
+    font-size: 84px;
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -3.36px;
+}
+
+.intro{
+    color: #DF6951;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.rect{
+    width: 314px;
+height: 457px;
+flex-shrink: 0;
+}
+
+.plane{
+    position: absolute;
+    z-index: 2;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+    border-radius: 10px;
+background: var(--yellow, #F1A501);
+box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+
+}
+
+/* title-image */
+.title-image {
+    width: 110%;
+    position:absolute;
+    right: 30%;
+    left : 5%;
+    z-index: 2;
+}
+
+/* Features-section */
+
+.feat{
+    color: var(--3rd, #14183E);
+text-align: center;
+font-size: 50px;
+font-family: Volkhov;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--text-heading-color, #1E1D4C);
+text-align: center;
+font-size: 20px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+p {
+    color: var(--textclr, #5E6282);
+text-align: center;
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+
+}
+
+
+/* top destinitions */
+
+.dest {
+    width: 315px;
+    height: 130px;
+    border-radius: 0px 0px 24px 24px;
+    background: var(--white, #FFF);
+}
+
+.d-text{
+    color: var(--textclr, #5E6282);
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+
+    text-align: center;
+    background-color:white;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color:white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.Pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width : 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform:rotate(0);
+
+    }
+    
+}
+
+/* Footer */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+}
+
+.end{
+    color:white;
+    font-weight: bolder;
+    font-size:4rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* copyright */
+#footer{
+    background-color: white;
+    text-align: center;
+}
+
+.foot-icon:hover{
+    color:#00FFD1;
+}
