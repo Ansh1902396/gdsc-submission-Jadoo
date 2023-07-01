@@ -24,6 +24,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  
   <script src="https://kit.fontawesome.com/bc026f6178.js" crossorigin="anonymous"></script>
 
 </head>
@@ -37,6 +38,7 @@
       <!-- Nav Bar -->
       <nav class="navbar  navbar-expand-lg navbar-dark">
         <img src="Logo.svg" alt="">
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -60,7 +62,15 @@
                 <a class="nav-link" href="#cta">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#cta">Signup</a>
+                <button style = 'border-radius: 5px;
+                border: 1px solid var(--1st, #212832); width: 102px;
+height: 40px;
+flex-shrink: 0;'><p style="color: var(--1st, #212832);
+font-size: 17px;
+font-family: Google Sans;
+font-style: normal;
+font-weight: 500;
+line-height: normal;">Sign Up</p></button>
             </li>
           </ul>
         </div>
@@ -93,6 +103,7 @@ flex-shrink: 0;"></img> play Now</button>
             <img class="plane" src="plane.png" alt="iphone-mockup">
             <img class="title-image" src="Traveller 1.png" alt="iphone-mockup">
             <img src="Decore.png" alt="" class="decore top-left">
+
           </div>
         </div>
       </div>
@@ -131,24 +142,47 @@ flex-shrink: 0;"></img> play Now</button>
   </section>
 
 
+  
+
   <!-- Top Destinations -->
 
-  <section id="top-dest">
+  <section id="top-dest" style="padding-top: 200px;">
     <h1 class = "feat">Top Destinations</h1>
     <div class="row">
-      <div class="feature-box col-lg-3">
+      <div class="feature-box col-lg-4">
         <img src="Rectangle 14.jpg" alt="" class="rect">
-        <div class="dest">
-         
+
+        <div>
+          <p class="place" >London, UK</p>
+          <p class="price">$4.2k</p>
+          <img src="navigation 1.svg" class ="pic" alt="">
+          <p class="days">12 Days Trip</p>
         </div>
         
+        
+         
+
       </div>
-      <div class="feature-box col-lg-3">
+      <div class="feature-box col-lg-4">
         <img src="Rectangle 15.png" alt="" class = "rect">
-       
+        <div>
+          <p class="place">Rome, Italty</p>
+          <p class="price">$5,42k</p>
+          <img src="navigation 1.svg" class ="pic" alt="">
+          <p class="days">10 Days Trip</p>
+        </div>
+         
       </div>
-      <div class="feature-box col-lg-3">
+      <div class="feature-box col-lg-4">
         <img src="Rectangle 16.png" alt="" class="rect">
+        <div>
+          <p class="place">Full Europe</p>
+          <p class="price">$15k</p>
+          <img src="navigation 1.svg" class ="pic" alt="">
+          <p class="days">28 Days Trip</p>
+        </div>
+         
+        
        
        </div>
     </div>
@@ -156,134 +190,203 @@ flex-shrink: 0;"></img> play Now</button>
 
   </section>
 
+    <!-- Book ur next trip -->
+
+    <section class="four">
+      <div class="section-4-container">
+        <div>
+          <p style="font-size: 18px; color: #5e6282; font-weight: 600"
+            >Easy and Fast</p
+          >
+          <p
+            class="tushar"
+            style="
+             color: var(--3rd, #14183E);
+            font-size: 50px;
+            font-family: Volkhov;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+            "
+            >Book Your Next Trip <br />In 3 Easy Steps</p
+          >
+          <div class="flex"
+            ><div class="flex flex-center">
+              <img src="section-4-icon-1.png" alt=""
+            /></div>
+            <div class="tushar">
+              <p class="font-16-bold">Choose Destination</p>
+              <p class="font-16"
+                >Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Urna, tortor tempus.
+            </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex flex-center">
+              <img src="section-4-icon-2.png" alt=""
+            /></div>
+            <div class="tushar">
+              <p class="font-16-bold">Make Payment</p>
+              <p class="font-16"
+                >Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit.
+                Urna, tortor tempus.
+            </p>
+            </div>
+          </div>
+          <div class="flex"
+            ><div class="flex flex-center">
+              <img src="section-4-icon-3.png" alt=""
+            /></div>
+            <div class="tushar">
+              <p class="font-16-bold">Reach Airport on Selected Date</p>
+              <p class="font-16"
+                >Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Urna, tortor tempus.
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-4-img-container">
+          <!-- <img src="./images/decor-sec-4.png" alt=""> -->
+          <div style="position: relative" class="section-4-img-1" style = ' padding-bottom: 800px;
+          margin-left: 200px;'>
+            <img src="section-4-main-1.png" alt="" /></div
+          ><div class="section-4-img-2 "
+            ><img src="section-4-main-2.png " alt=""
+          /></div>
+        </div>
+      </div>
+    </section>
+    
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
-    <div class="row">
-      <div class = "col-lg-2 ">
-        <p style="color: var(--textclr, #5E6282);
-        font-size: 18px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        text-transform: uppercase;">Testimonials</p>
-  
-        <h1 style="color: var(--3rd, #14183E);
-        font-size: 50px;
-        font-family: Volkhov;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: capitalize;">What people say
-  about Us.</h1>
-       
-  
+  <section class="five" style="padding-bottom: 300px;">
+    <div class="flex">
+      <div class="section-5-heading-container">
+        <p class="section-5-heading-1">Testimonials</p>
+        <h1 class="section-5-heading-2">What People Say About Us</h1>
+      </div>
+      <div class="section-5-post-contianer">
+        <img
+          class="section-5-1 "
+          src="section-5-1.png"
+          style="top : 220px; left : 220px; "
+          alt=""
+        />
+        <img
+          class="section-5-2 "
+          src="section-5-2.png"
+          alt=""
+          style="left: 200px; "
+        />
       </div>
     </div>
-    
+    <ul class="section-5-icon-container">
+      <li>
+        <img  src="section-5-icon-1.png" alt=""
+      /></li>
+      <li
+        ><img  src="section-5-icon-2.png" alt=""
+      /></li>
+      <li
+        ><img  src="section-5-icon-3.png" alt=""
+      /></li>
+      <li
+        ><img  src="section-5-icon-4.png" alt=""
+      /></li>
+      <li
+        ><img src="section-5-icon-5.png" alt=""
+      /></li>
+    </ul>
   </section>
 
 
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-logo" src="TechCrunch.png" alt="tc-logo">
-    <img class="press-logo" src="tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="mashable.png" alt="mashable-logo">
-
-  </section>
 
 
-  <!-- Pricing -->
-  <section id="pricing">
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
 
-    <div class="row">
-      <div class="Pricing-column col-lg-4 col-md-6 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h3>Chihuahua</h3>
-          </div>
-          <div class="card-body">
-            <h2>Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-lg btn-outline-dark download-button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="Pricing-column col-lg-4 col-md-6 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h3>Labrador</h3>
-          </div>
-          <div class="card-body">
-            <h2>$49 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-dark btn-lg download-button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="Pricing-column col-lg-4 col-md-12 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h3>Mastiff</h3>
-          </div>
-          <div class="card-body">
-            <h2>$99 / mo</h2>
-            <p>Priority Listing</p>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button" class="btn btn-dark btn-lg download-button">Sign Up</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
+  
 
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3 class="end">Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-light btn-lg btn-outline-light download-button"><i class="fa-brands fa-google-play"></i> Download </button>
-    <button type="button" class="btn btn-dark btn-lg  padding-top: 16px;
-    padding-bottom: 16px;"> <i class="fa-brands fa-apple"></i> Download </button>
-
+    <p class="desc">Subscribe to get information, latest news and other
+      interesting offers about Cobham</p>
+    <input type="text" name="email" placeholder="Your Email">
+    <button class="s-button">Subscribe</button>
   </section>
 
 
   <!-- Footer -->
+  <div class="section-6-footer-container">
+    <div class="section-6-footer">
+      <div
+        ><p style="font-size: 44px; color: #181e4b">Jadoo</h1>
+        <p class="font-14"
+          >Book your trip in minute, get full <br />Control for much
+          longer.
+    </p>
+      </div>
+      <div class="flex flex-column">
+        <p class="section-6-text-class">Company</p>
+        <button>About</button>
+        <button>Carrers</button>
+        <button>Mobile</button>
+      </div>
+      <div class="flex flex-column">
+        <p class="section-6-text-class">Contact</p>
+        <button>Help/FAQ</button>
+        <button>Press</button>
+        <button>Affiliates</button>
+      </div>
+      <div class="flex flex-column">
+        <p class="section-6-text-class">More</p>
+        <button>Airlinefees</button>
+        <button>Airline</button>
+        <button>Low Fare Trips</button>
+      </div>
+      <div>
+        <div>
+          <img
+            src="section-6-facebook.png"
+            alt=""
+          />
+          <img
+            
+            src="section-6-insta.png"
+            alt=""
+          />
+          <img
+            
+            src="section-6-twitter.png"
+            alt=""
+          />
+        </div>
+        <p>Discover our app </p>
+        <div>
+          <img
+            
+            src="section-6-googleplay.png"
+            alt=""
+          />
+          <img
+            
+            src="section-6-apple.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="font-14">All rights reserved@jadoo.co</p>
+  <p class="font-14">Made with love by Rudransh ❤</p>
 
-  <footer id="footer">
+</section>
+</div>
 
-    <i class="foot-icon fa-brands fa-twitter fa-2xl"></i> 
-    <i class="foot-icon fa-brands fa-facebook-f fa-2xl" style="
-    margin-left: 40px;
-    margin-right: 40px;"></i>
-    <i class="foot-icon fa-brands fa-instagram fa-2xl" style="
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-right: 40px;"></i>
-    <i class="foot-icon fa-solid fa-envelope fa-2xl"></i>
-    <p>© Copyright TinDog</p>
-    <p>Made By Rudransh And Yajat 😊 </p>
-    
-
-
-  </footer>
-
+ 
 
 </body>
 
